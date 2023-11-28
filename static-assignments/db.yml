@@ -1,0 +1,4 @@
+- hosts: db
+  roles:
+  - role: roles/mysql
+    become: yes
